@@ -16,14 +16,13 @@ The datasets used for training the models are located within the repository:
 * **Crop Recommendation Dataset:** Found in the `/data` directory.
 * **Disease Classification Dataset:** The image dataset used for training is located in the `/data` directory.
 
-## Notebooks 📓
+## DATA SOURCE 📊
 
-All experimentation, model training, and data analysis were performed in Jupyter Notebooks, which are available in the `/notebooks` directory.
+The datasets used for training the models are publicly available on Kaggle:
 
-* **Crop Prediction Model:** [View Notebook](/notebooks/crop_prediction.ipynb)
-* **Disease Classification Model:** [View Notebook](/notebooks/disease_classification.ipynb)
+* **Crop Recommendation Dataset:** [Crop Recommendation Dataset on Kaggle](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset)
+* **Disease Classification Dataset:** [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
 
-*(Note: Please update the notebook filenames above to match your repository)*
 
 ## Built with 🛠️
 
@@ -83,19 +82,9 @@ Before following these steps, make sure you have Git and Python (3.8+) installed
 Check out the live demo of the application:
 **[https://plantiq.streamlit.app/](https://plantiq.streamlit.app/)**
 
-![Crop Recommendation](demo\crop_recommendation_demo.png "Crop Suggestion Output")
-![Crop Recommendation](demo\disease_classification_demo.png "Disease Classification Output")
+![Crop Recommendation](demo/crop_recommendation_demo.png "Crop Suggestion Output")
+![Disease Classification](demo/disease_classification_demo.png "Disease Classification Output")
 
-
-## Contribute 👨‍💻
-
-Contributions are welcome! Please read `CONTRIBUTING.md` (if available) for details on the code of conduct and the process for submitting pull requests.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/NewFeature`)
-3.  Commit your Changes (`git commit -m 'Add some NewFeature'`)
-4.  Push to the Branch (`git push origin feature/NewFeature`)
-5.  Open a Pull Request
 
 ## Usage ⚙️
 
@@ -114,8 +103,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## Contact 📞
 
-Swarnabha Ghosh - [swarnabhaghosh@example.com](mailto:swarnabhaghosh@example.com) - [LinkedIn](https://www.linkedin.com/in/your-profile)
-
-Project Link: [https://github.com/swarnabhaghosh/Crop-Prediction-And-Disease-Classification](https://github.com/swarnabhaghosh/Crop-Prediction-And-Disease-Classification)
-
-*(Please update the contact details above)*
+Swarnabha Ghosh - [swarnabhaghosh@example.com](mailto:swarnabha983@gmail.com) - [LinkedIn](https://www.linkedin.com/in/swarnabhaghosh)
