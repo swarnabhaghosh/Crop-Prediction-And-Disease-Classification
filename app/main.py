@@ -18,8 +18,9 @@ if app_mode == "Crop Recommendation":
     st.title("🌾 Crop Recommendation System")
     st.markdown("Enter the soil and weather conditions to get a recommendation for the most suitable crop to cultivate.")
 
-    # Load model
-    model_path = 'models/NBClassifier.pkl'
+    # Use absolute path relative to the current script
+    model_path = os.path.join(os.path.dirname(__file__), 'models', 'NBClassifier.pkl')
+
     def load_model(path):
         try:
             with open(path, 'rb') as file:
@@ -27,6 +28,7 @@ if app_mode == "Crop Recommendation":
         except Exception as e:
             st.error(f"Model loading error: {e}")
             return None
+
     model = load_model(model_path)
 
     # Sidebar input
