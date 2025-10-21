@@ -10,11 +10,6 @@ This application implements two main features:
 1.  **Crop Recommendation:** Users can input soil and weather data (like N, P, K, pH, temperature, humidity, and rainfall) to get a prediction for the most suitable crop to grow.
 2.  **Plant Disease Classification:** Users can upload an image of a plant leaf, and the application will identify the disease, helping them take appropriate action.
 
-## DATA SOURCE 📊
-
-The datasets used for training the models are located within the repository:
-* **Crop Recommendation Dataset:** Found in the `/data` directory.
-* **Disease Classification Dataset:** The image dataset used for training is located in the `/data` directory.
 
 ## DATA SOURCE 📊
 
