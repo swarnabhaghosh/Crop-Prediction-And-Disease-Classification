@@ -62,4 +62,6 @@ if uploaded_image is not None:
         if st.button('Classify'):
             # Preprocess the uploaded image and predict the class
             prediction = predict_image_class(model, uploaded_image, class_indices)
+            prediction = prediction.replace("_", " ")
+            prediction = prediction.strip()
             st.success(f'Prediction: {str(prediction)}')
