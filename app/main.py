@@ -8,7 +8,7 @@ from PIL import Image
 import tensorflow as tf
 
 # --- Sidebar Navigation ---
-st.sidebar.title("Navigation")
+st.sidebar.title("Plant IQ Navigation")
 app_mode = st.sidebar.radio("Choose the app", ["Crop Recommendation", "Plant Disease Classifier"])
 
 # --- Crop Recommendation System ---
